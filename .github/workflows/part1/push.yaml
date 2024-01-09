@@ -1,4 +1,4 @@
-name: push-workflow-test
+name: push-workflow-trigger-test
 on: push
 
 jobs:
