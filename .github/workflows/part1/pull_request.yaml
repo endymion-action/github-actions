@@ -1,15 +1,15 @@
 name: pull-request-workflow
-on:
+on: 
   pull_request:
     types: [opened]
 
 jobs:
-  push-request-job:
+  pull-request-job:
     runs-on: ubuntu-latest
     steps:
-      - name: step1
-        run: echo hello world
-      - name: step2
-        run: |
-          echo hello world
-          echo github action
+    - name: step1
+      run: echo hello world
+    - name: step2
+      run: |
+        echo hello world
+        echo github action
